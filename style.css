@@ -1,0 +1,139 @@
+header {
+    background-color: #441710;
+    padding: 10px 20px;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  nav img {
+    
+    
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    width: 80px;
+  }
+
+  h1{
+    text-align: center;
+    font-family: "Impact", fantasy;   
+  }
+
+  
+/* Fixed background image */
+.fixed-bg {
+    background-image: url("assets/images/3.jpg");
+    background-attachment: fixed;
+    /* The image will not scroll with the page */
+    background-position: center;
+    /* Centers the background image */
+    background-size: cover;
+    /* Ensure the image covers the entire section */
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  section {
+    height: 200px;
+    padding: 3rem 0;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Background color */
+  .color-bg {
+    background-color: #3498db;
+    /* Solid blue background */
+  }
+  
+
+  /* Custom font face declaration */
+@font-face {
+    font-family: "Yarndings 12";
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/yarndings12/v2/55xreyp2N8T5P2LJbZAlkY9smJjNAWZEnJ5-.woff2)
+      format("woff2");
+  }
+  /* Import from Google Fonts */
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+  #example1 {
+    box-sizing: content-box;
+    width: 500px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid #82611b;
+    margin: 0 auto;
+  }
+  #example2 {
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 10px solid #f0808d;
+    margin: 0 auto;
+  }
+  
+  .text{
+    color: black;
+  }
+
+
+
+
+  @media only screen and (max-width: 600px) {
+    /* CSS rules for extra small screens */
+    #example1 {
+      box-sizing: content-box;
+      width: 120px;
+      height: 695px;
+      padding: 30px;
+      border: 10px solid #f1ad1c;
+      margin: 0 auto;
+    }
+  }
+   
+  /* Small devices (portrait tablets and large phones, 600px to 768px) */
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    /* CSS rules for small screens */
+    h2{
+        font-size: 16px;
+        color: rgb(8, 245, 51);
+    }
+  }
+   
+  /* Medium devices (landscape tablets, 768px to 992px) */
+  @media only screen and (min-width: 769px) and (max-width: 992px) {
+    /* CSS rules for medium screens */
+    h2{
+        font-size: 16px;
+        color: rgb(43, 86, 26);
+    }
+  }
+   
+  /* Large devices (laptops/desktops, 992px to 1200px) */
+  @media only screen and (min-width: 993px) and (max-width: 1200px) {
+    /* CSS rules for large screens */
+    h2{
+        font-size: 16px;
+        color: brown;
+    }
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media only screen and (min-width: 1201px) {
+    /* CSS rules for extra large screens */
+    h2{
+        font-size: 16px;
+        color: rgb(214, 57, 159);
+    }
+  }
+
